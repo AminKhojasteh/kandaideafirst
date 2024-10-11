@@ -27,7 +27,7 @@ function Slider() {
           className={`absolute top-1/2 flex -translate-y-1/2 items-center gap-5 pl-10 transition-all duration-300 md:pl-14 lg:pl-20 ${step === 1 ? "" : "translate-y-32 opacity-0"}`}
         >
           <div>
-            <img src="./src/assets/icons/services-border.svg" />
+            <img src="./icons/services-border.svg" />
           </div>
           <div>
             <p
@@ -42,7 +42,7 @@ function Slider() {
           className={`absolute top-1/2 flex -translate-y-1/2 items-center gap-5 pl-10 transition-all duration-300 md:pl-14 lg:pl-20 ${step === 2 ? "" : "translate-y-32 opacity-0"}`}
         >
           <div>
-            <img src="./src/assets/icons/industries-border.svg" />
+            <img src="./icons/industries-border.svg" />
           </div>
           <div>
             <p
@@ -57,7 +57,7 @@ function Slider() {
           className={`absolute top-1/2 flex -translate-y-1/2 items-center gap-5 pl-10 transition-all duration-300 md:pl-14 lg:pl-20 ${step === 3 ? "" : "translate-y-32 opacity-0"}`}
         >
           <div>
-            <img src="./src/assets/icons/R&D-border.svg" />
+            <img src="./icons/R&D-border.svg" />
           </div>
           <div>
             <p
@@ -70,13 +70,13 @@ function Slider() {
         </div>
         <div className="absolute -bottom-20 right-10 z-10 flex flex-col gap-2 md:right-16 lg:right-28">
           <div>
-            <img src={`./src/assets/icons/state-${step}.svg`} />
+            <img src={`./icons/state-${step}.svg`} />
           </div>
           <div>
-            <img src="./src/assets/icons/number-three.svg" />
+            <img src="./icons/number-three.svg" />
           </div>
           <button onClick={handleArrowClick} className="cursor-pointer">
-            <img src="./src/assets/icons/arrow-blue.svg" />
+            <img src="./icons/arrow-blue.svg" />
           </button>
         </div>
       </div>
@@ -86,7 +86,7 @@ function Slider() {
         >
           <div className="flex items-center gap-5 py-5 pl-10 md:pl-14 lg:pl-20">
             <div>
-              <img src="./src/assets/icons/services-solid.svg" />
+              <img src="./icons/services-solid.svg" />
             </div>
             <div>
               <p className="translate-y-1 text-[2rem] uppercase text-white lg:text-[2.4rem]">
@@ -106,7 +106,7 @@ function Slider() {
         >
           <div className="flex items-center gap-5 py-5 pl-10 md:pl-14 lg:pl-20">
             <div>
-              <img src="./src/assets/icons/R&D-solid.svg" />
+              <img src="./icons/R&D-solid.svg" />
             </div>
             <div>
               <p className="translate-y-1 text-[2rem] uppercase text-white lg:text-[2.4rem]">
@@ -128,7 +128,7 @@ function Slider() {
         >
           <div className="flex items-center gap-5 py-5 pl-10 md:pl-14 lg:pl-20">
             <div>
-              <img src="./src/assets/icons/industries-solid.svg" />
+              <img src="./icons/industries-solid.svg" />
             </div>
             <div>
               <p className="translate-y-1 text-[2rem] uppercase text-white lg:text-[2.4rem]">

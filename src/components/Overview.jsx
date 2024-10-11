@@ -2,7 +2,7 @@ function Overview() {
   return (
     <div className="mx-auto mt-16 grid max-w-[100rem] grid-cols-[3rem_1fr] px-8 lg:mt-20">
       <div className="pt-4 md:pt-12">
-        <img src="./src/assets/icons/arrow-down.svg" />
+        <img src="./icons/arrow-down.svg" />
       </div>
       <div className="grid grid-cols-1 gap-x-8 md:grid-cols-2 lg:grid-cols-[3fr_2fr] xl:pr-16">
         <div className="flex flex-col gap-5 py-10">
@@ -20,7 +20,7 @@ function Overview() {
           </h3>
         </div>
         <div className="row-start-1 w-96 pb-5 md:col-start-2 md:w-full md:py-10">
-          <img src="./src/assets/icons/overview.svg" className="w-full" />
+          <img src="./icons/overview.svg" className="w-full" />
         </div>
       </div>
     </div>

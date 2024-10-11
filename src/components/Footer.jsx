@@ -12,14 +12,14 @@ function Footer({ engLang, onFaClick, onEnClick }) {
     <div className="mx-auto mt-24 max-w-[60rem] px-4 pb-16 lg:mt-28 lg:pb-24">
       <div className="grid grid-cols-[3rem_1fr] gap-y-5 text-gray-700 md:gap-y-8">
         <div className="pt-5">
-          <img src="./src/assets/icons/arrow-up.png" />
+          <img src="./icons/arrow-up.png" />
         </div>
         <div className="grid grid-cols-[4fr_4fr_4fr_1fr] gap-x-2 gap-y-2 text-[1.6rem] md:gap-x-5 md:text-3xl">
           <p className="self-center uppercase">INDUSTRIES</p>
           <p className="self-center uppercase">SERVICES</p>
           <p className="self-center uppercase">COOPERATION</p>
           <button onClick={scrollToTop} className="justify-self-end">
-            <img src="./src/assets/icons/second-logo.svg" className="w-16" />
+            <img src="./icons/second-logo.svg" className="w-16" />
           </button>
           <div className="flex flex-col gap-0.5 md:gap-1">
             <FooterLink>Maritime</FooterLink>
@@ -64,13 +64,13 @@ function Footer({ engLang, onFaClick, onEnClick }) {
         <div className="col-span-2 flex items-center justify-between px-10">
           <div className="flex h-[1.6rem] gap-4">
             <FooterLink className="h-full">
-              <img src="./src/assets/icons/linkedin.png" className="h-full" />
+              <img src="./icons/linkedin.png" className="h-full" />
             </FooterLink>
             <FooterLink className="h-full">
-              <img src="./src/assets/icons/instagram.png" className="h-full" />
+              <img src="./icons/instagram.png" className="h-full" />
             </FooterLink>
             <FooterLink className="h-full overflow-hidden rounded-md">
-              <img src="./src/assets/icons/aparat.png" className="h-full" />
+              <img src="./icons/aparat.png" className="h-full" />
             </FooterLink>
           </div>
           <span>&copy;Copyright 2020. All Rights Reserved.</span>

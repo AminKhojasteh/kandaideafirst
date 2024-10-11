@@ -20,7 +20,7 @@ function Projects() {
       className="mx-auto mt-14 grid max-w-[100rem] grid-cols-[3rem_1fr] px-5 lg:mt-20 lg:px-8"
     >
       <div className="pt-32">
-        <img src="./src/assets/icons/arrow-down.svg" />
+        <img src="./icons/arrow-down.svg" />
       </div>
       <div className="relative flex flex-col">
         <h2 className="mb-5 text-5xl font-bold uppercase text-gray-700">
@@ -33,7 +33,7 @@ function Projects() {
           <div className="relative overflow-hidden">
             <img
               className="w-full transition-all duration-300 hover:scale-110"
-              src="./src/assets/imgs/project.webp"
+              src="./imgs/project.webp"
             />
             <span className="absolute left-5 top-5 w-[90%] text-2xl font-medium uppercase text-white">
               PROJECT TITLE
@@ -42,7 +42,7 @@ function Projects() {
           <div className="relative overflow-hidden">
             <img
               className="transition-all duration-300 hover:scale-110"
-              src="./src/assets/imgs/project.webp"
+              src="./imgs/project.webp"
             />
             <span className="absolute left-5 top-5 w-[90%] text-2xl font-medium uppercase text-white">
               PROJECT TITLE
@@ -51,7 +51,7 @@ function Projects() {
           <div className="relative overflow-hidden">
             <img
               className="transition-all duration-300 hover:scale-110"
-              src="./src/assets/imgs/project.webp"
+              src="./imgs/project.webp"
             />
             <span className="absolute left-5 top-5 w-[90%] text-2xl font-medium uppercase text-white">
               PROJECT TITLE
@@ -60,7 +60,7 @@ function Projects() {
           <div className="relative overflow-hidden">
             <img
               className="transition-all duration-300 hover:scale-110"
-              src="./src/assets/imgs/project.webp"
+              src="./imgs/project.webp"
             />
             <span className="absolute left-5 top-5 w-[90%] text-2xl font-medium uppercase text-white">
               PROJECT TITLE
@@ -69,7 +69,7 @@ function Projects() {
           <div className="relative overflow-hidden">
             <img
               className="transition-all duration-300 hover:scale-110"
-              src="./src/assets/imgs/project.webp"
+              src="./imgs/project.webp"
             />
             <span className="absolute left-5 top-5 w-[90%] text-2xl font-medium uppercase text-white">
               PROJECT TITLE
@@ -78,7 +78,7 @@ function Projects() {
           <div className="relative overflow-hidden">
             <img
               className="transition-all duration-300 hover:scale-110"
-              src="./src/assets/imgs/project.webp"
+              src="./imgs/project.webp"
             />
             <span className="absolute left-5 top-5 w-[90%] text-2xl font-medium uppercase text-white">
               PROJECT TITLE
@@ -87,7 +87,7 @@ function Projects() {
           <div className="relative overflow-hidden">
             <img
               className="transition-all duration-300 hover:scale-110"
-              src="./src/assets/imgs/project.webp"
+              src="./imgs/project.webp"
             />
             <span className="absolute left-5 top-5 w-[90%] text-2xl font-medium uppercase text-white">
               PROJECT TITLE
@@ -96,7 +96,7 @@ function Projects() {
           <div className="relative overflow-hidden">
             <img
               className="transition-all duration-300 hover:scale-110"
-              src="./src/assets/imgs/project.webp"
+              src="./imgs/project.webp"
             />
             <span className="absolute left-5 top-5 w-[90%] text-2xl font-medium uppercase text-white">
               PROJECT TITLE
@@ -105,7 +105,7 @@ function Projects() {
           <div className="relative overflow-hidden">
             <img
               className="transition-all duration-300 hover:scale-110"
-              src="./src/assets/imgs/project.webp"
+              src="./imgs/project.webp"
             />
             <span className="absolute left-5 top-5 w-[90%] text-2xl font-medium uppercase text-white">
               PROJECT TITLE

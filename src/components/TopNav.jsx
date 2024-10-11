@@ -2,7 +2,7 @@ function TopNav({ engLang, onFaClick, onEnClick }) {
   return (
     <nav className="mb-14 flex items-center justify-between px-12 md:px-16 lg:px-20">
       <div>
-        <img src="./src/assets/icons/kanda-idea.svg" className="h-10 md:h-12" />
+        <img src="./icons/kanda-idea.svg" className="h-10 md:h-12" />
       </div>
       <div className="flex items-center gap-10">
         <div className="flex items-center gap-4">
@@ -26,7 +26,7 @@ function TopNav({ engLang, onFaClick, onEnClick }) {
           </div>
         </div>
         <div className="cursor-pointer">
-          <img src="./src/assets/icons/menu-three-lines.svg" className="h-5" />
+          <img src="./icons/menu-three-lines.svg" className="h-5" />
         </div>
       </div>
     </nav>
