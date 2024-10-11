@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "DINNextLTPro";
+  src: url("./assets/fonts/DINNextLTPro-UltraLightIt.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINNextLTPro";
+  src: url("./assets/fonts/DINNextLTPro-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINNextLTPro";
+  src: url("./assets/fonts/DINNextLTPro-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINNextLTPro";
+  src: url("./assets/fonts/DINNextLTPro-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINNextLTPro";
+  src: url("./assets/fonts/DINNextLTPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINNextLTPro";
+  src: url("./assets/fonts/DINNextLTPro-Heavy.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINNextLTPro";
+  src: url("./assets/fonts/DINNextLTPro-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
